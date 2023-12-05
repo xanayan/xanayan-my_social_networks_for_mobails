@@ -1,18 +1,50 @@
+* {
+    margin: 0;
+}
+
 body {
     background: rgb(255,168,235);
     background: linear-gradient(0deg, rgba(255,168,235,1) 0%, rgba(152,255,235,1) 100%);
     min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+#header_logo {
+    text-align: center;
+    color: #FFB499;
     font-size: 64px;
-    color: red;
+    margin: 8px;
 }
 
-p {
+#part_for_buttons {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.buttons {
+    height: 70px;
+    border: solid 3px white;
+    border-radius: 70px;
+    background-color: rgb(252, 213, 243);
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons_photo {
+    height: calc(100% - 6px);
+    border-radius: 70px;
+    border: solid 3px white;
+}
+
+.buttons_text {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
     font-size: 24px;
 }
 
-img {
-    width: 300px;
+.buttons_icon {
+    height: 50%;
+    margin: 24px;
 }
