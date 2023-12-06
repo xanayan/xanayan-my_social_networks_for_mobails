@@ -6,7 +6,7 @@ body {
     background: rgb(255,168,235);
     background: linear-gradient(0deg, rgba(255,168,235,1) 0%, rgba(152,255,235,1) 100%);
     min-height: 100vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: cursive;
 }
 
 #header_logo {
